@@ -1,3 +1,5 @@
+package exercicio.listasDeTarefas;
+
 public class Tarefa {
     private String descricao;
     public String getDescricao() {

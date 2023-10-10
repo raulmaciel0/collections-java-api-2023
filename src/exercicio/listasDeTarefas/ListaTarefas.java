@@ -1,3 +1,5 @@
+package exercicio.listasDeTarefas;
+
 import java.util.ArrayList;
 import java.util.List;
 
@@ -35,12 +37,12 @@ public class ListaTarefas {
         ListaTarefas listaTarefas = new ListaTarefas();
         System.out.println("O número total de elementos na lista é: " + listaTarefas.obterNumeroTotalDeTarefas());
 
-        listaTarefas.adicionarTarefa("Tarefa 1");
-        listaTarefas.adicionarTarefa("Tarefa 1");
-        listaTarefas.adicionarTarefa("Tarefa 3");
+        listaTarefas.adicionarTarefa("exercicio.listasDeTarefas.Tarefa 1");
+        listaTarefas.adicionarTarefa("exercicio.listasDeTarefas.Tarefa 1");
+        listaTarefas.adicionarTarefa("exercicio.listasDeTarefas.Tarefa 3");
         System.out.println("O número total de elementos na lista é: " + listaTarefas.obterNumeroTotalDeTarefas());
 
-        listaTarefas.removerTarefa("Tarefa 3");
+        listaTarefas.removerTarefa("exercicio.listasDeTarefas.Tarefa 3");
         System.out.println("O número total de elementos na lista é: " + listaTarefas.obterNumeroTotalDeTarefas());
 
         listaTarefas.obterDescricoesTarefas();
