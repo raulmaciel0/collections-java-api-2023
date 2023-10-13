@@ -1,4 +1,4 @@
-package exercicio.listasDeTarefas;
+package exercicio.list.listasDeTarefas;
 
 public class Tarefa {
     private String descricao;

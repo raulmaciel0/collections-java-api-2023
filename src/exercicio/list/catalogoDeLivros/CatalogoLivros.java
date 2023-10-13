@@ -1,4 +1,4 @@
-package exercicio.catalogoDeLivros;
+package exercicio.list.catalogoDeLivros;
 import java.util.ArrayList;
 import java.util.List;
 public class CatalogoLivros {
